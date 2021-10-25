@@ -1,0 +1,5 @@
+REPLACE_WITH_PYTHON_CMD train_sampled.py
+--saved_arch_filename=save_file_REPLACE_WITH_GLOBAL_EXPERIMENT_ID_supernet_{0, 1}_{0, 1, 2}_sampled_arch_{0, 1, 2, 3} --tuning_experiment_id=REPLACE_WITH_TUNING_EXPERIMENT_ID --feature_counts_file=datasets/train_fea_count.npz --dataset=kaggle --raw_data_file=datasets/train.txt --processed_data_file=kaggleAdDisplayChallenge_processed --load_processed --data_randomization=total --category_dropping=modulo --train_batch_size=4096 --val_batch_size=256 --test_batch_size=256 --n_epochs=6.0 --evaluation_frequency=1.0 --host_gpu_id=GPU_ID_PARAM --clip_grad_norm_value=100.0 --optim_type=sgd --lr={0.25, 0.5, 1.0, 2.0} --wd=0.0 --lr_base=0.9 --seed=1 --save_metrics_param=SAVE_METRICS_PARAM --memory_map
+GPU_IDs:0,1,2,3,4,5,6,7
+NUM_JOBS_PER_GPU:2
+EPOCH_EVAL_FREQ:6,1

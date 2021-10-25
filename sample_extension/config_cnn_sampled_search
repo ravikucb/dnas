@@ -1,0 +1,5 @@
+REPLACE_WITH_PYTHON_CMD train_sampled_cnn.py
+--saved_arch_filename=save_file_REPLACE_WITH_GLOBAL_EXPERIMENT_ID_supernet_{0, 1}_{0, 1}_sampled_arch_{0, 1, 2, 3} --tuning_experiment_id=REPLACE_WITH_TUNING_EXPERIMENT_ID --host_gpu_id=GPU_ID_PARAM --lr={0.01, 0.02} --n_epochs=4.0 --save_metrics_param=SAVE_METRICS_PARAM
+GPU_IDs:0,1,2,3,4,5,6,7
+NUM_JOBS_PER_GPU:1
+EPOCH_EVAL_FREQ:4,1
