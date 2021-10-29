@@ -10,9 +10,18 @@ the Deep Learning Recommendation Model (DLRM) as a backbone. The framework itsel
 for any other NAS application, and the code in sample_extension/ shows an example of how this
 would be done for search over CNNs for image classification.
 
-Cite Work:
+Cite [Work](https://arxiv.org/abs/2110.14812):
 
-ADD ARXIV ARTICLE
+```
+@inproceedings{krishna2021differentiable,
+  author      = {Ravi Krishna and Aravind Kalaiah and Bichen Wu and Maxim Naumov and Dheevatsa Mudigere and Misha Smelyanskiy and Kurt Keutzer},
+  title       = {Differentiable NAS Framework and Application to Ads CTR Prediction},
+  journal     = {CoRR},
+  volume      = {abs/2110.14812},
+  year        = {2021},
+  url         = {https://arxiv.org/abs/2110.14812}
+}
+```
 
 Related Work:
 
@@ -37,7 +46,7 @@ For the original work on the [DLRM](https://arxiv.org/abs/1906.00091):
   journal   = {CoRR},
   volume    = {abs/1906.00091},
   year      = {2019},
-  url       = {https://arxiv.org/abs/1906.00091},
+  url       = {https://arxiv.org/abs/1906.00091}
 }
 ```
 
